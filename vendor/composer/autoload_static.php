@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606
+class ComposerStaticInitf96a02c2296dce5bff18260e8d3c4c5a
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -14,6 +14,7 @@ class ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
+        '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -44,6 +45,10 @@ class ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606
             'Illuminate\\Contracts\\' => 21,
             'Illuminate\\Container\\' => 21,
             'Illuminate\\Bus\\' => 15,
+        ),
+        'F' => 
+        array (
+            'FastRoute\\' => 10,
         ),
         'D' => 
         array (
@@ -99,9 +104,9 @@ class ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Pipeline\\' => 
@@ -127,6 +132,10 @@ class ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606
         'Illuminate\\Bus\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/bus',
+        ),
+        'FastRoute\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/fast-route/src',
         ),
         'Doctrine\\Inflector\\' => 
         array (
@@ -162,10 +171,10 @@ class ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606::$fallbackDirsPsr4;
-            $loader->classMap = ComposerStaticInit4c2ef8b6443e0e523cb06f0140bca606::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf96a02c2296dce5bff18260e8d3c4c5a::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf96a02c2296dce5bff18260e8d3c4c5a::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInitf96a02c2296dce5bff18260e8d3c4c5a::$fallbackDirsPsr4;
+            $loader->classMap = ComposerStaticInitf96a02c2296dce5bff18260e8d3c4c5a::$classMap;
 
         }, null, ClassLoader::class);
     }

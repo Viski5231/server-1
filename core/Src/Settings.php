@@ -35,6 +35,4 @@ class Settings
     {
         return $this->db ?? [];
     }
-
 }
-

@@ -37,13 +37,13 @@ class Application
         switch ($key) {
             case 'settings':
                 return $this->settings;
-            case 'routes':
+            case 'route':
                 return $this->route;
             case 'auth':
                 return $this->auth;
         }
-        throw new Error('Accessing a non-existent property');
-    }
+       throw new Error('Accessing a non-existent property');
+   }
 
     private function dbRun()
     {
