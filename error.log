@@ -1,5 +1,0 @@
-[Sun May 11 19:59:08.641466 2025] [negotiation:error] [pid 747865] [client 10.30.8.241:44776] AH00687: Negotiation: discovered file(s) matching request: /srv/users/ixxigaaj/duuyjdu-m6/public/index (None could be negotiated).
-[Sun May 18 18:29:20.422750 2025] [php:warn] [pid 1472638] [client 10.30.8.241:52620] PHP Warning:  Undefined array key "login" in /srv/users/ixxigaaj/duuyjdu-m6/app/Model/User.php on line 43, referer: http://duuyjdu-m6.wsr.ru/login
-[Sun May 18 18:29:20.422946 2025] [php:warn] [pid 1472638] [client 10.30.8.241:52620] PHP Warning:  Undefined array key "password" in /srv/users/ixxigaaj/duuyjdu-m6/app/Model/User.php on line 44, referer: http://duuyjdu-m6.wsr.ru/login
-[Sun May 18 18:30:45.374088 2025] [php:warn] [pid 1476380] [client 10.30.8.241:41140] PHP Warning:  Undefined array key "login" in /srv/users/ixxigaaj/duuyjdu-m6/app/Model/User.php on line 43, referer: http://duuyjdu-m6.wsr.ru/login
-[Sun May 18 18:30:45.374132 2025] [php:warn] [pid 1476380] [client 10.30.8.241:41140] PHP Warning:  Undefined array key "password" in /srv/users/ixxigaaj/duuyjdu-m6/app/Model/User.php on line 44, referer: http://duuyjdu-m6.wsr.ru/login
